@@ -53,6 +53,11 @@ a {
   border-radius: 20%;
 }
 
+.homePage-container{
+  display: flex;
+  justify-content: space-between;
+}
+
 .homepage-leftside {
   margin-top: 120px;
   margin-left: 100px;
@@ -63,4 +68,17 @@ a {
   letter-spacing: 3px;
 }
 
+.buttons{
+  width:200px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
 
+.home-image{
+  min-width:500px;
+  height: 500px;
+  background-image: url(./assets/images/home-image.png);
+  margin-right: 50px;
+
+}
