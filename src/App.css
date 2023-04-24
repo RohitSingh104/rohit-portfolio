@@ -19,6 +19,7 @@
   font-weight: normal;
   display: flex;
   justify-content: space-between;
+
 }
 
 .left-section {
@@ -76,9 +77,10 @@ a {
 }
 
 .home-image{
-  min-width:500px;
-  height: 500px;
+  width:500px;
+  height: 400px;
+  background-size:cover;
   background-image: url(./assets/images/home-image.png);
-  margin-right: 50px;
+  margin: 50px 50px 0 0;
 
 }

@@ -3,11 +3,14 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 
 
+
 const HomePage = () => {
   const iconStyle = {
     width:'30px',
-    height:'30px'
+    height:'30px',
+   
   }
+
   return (
     <div className="homePage-container">
       <div className="homepage-leftside">
