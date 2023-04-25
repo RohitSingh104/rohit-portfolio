@@ -84,3 +84,44 @@ a {
   margin: 50px 50px 0 0;
 
 }
+
+.about-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.inner-box{
+  width: 80%;
+  height:80%;
+  padding:20px 20px;
+  margin:80px 80px;
+  box-shadow: 5px 10px #646262a1;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+p{
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+li{
+  padding-top: 10px;
+  list-style:square;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+.skills{
+  width:50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ab-right-section{
+  /* background-image: url(src\assets\images\about-image.png); */
+}
