@@ -19,7 +19,6 @@
   font-weight: normal;
   display: flex;
   justify-content: space-between;
-
 }
 
 .left-section {
@@ -54,7 +53,7 @@ a {
   border-radius: 20%;
 }
 
-.homePage-container{
+.homePage-container {
   display: flex;
   justify-content: space-between;
 }
@@ -69,59 +68,89 @@ a {
   letter-spacing: 3px;
 }
 
-.buttons{
-  width:200px;
+.buttons {
+  width: 200px;
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
 }
 
-.home-image{
-  width:500px;
+.home-image {
+  width: 500px;
   height: 400px;
-  background-size:cover;
+  background-size: cover;
   background-image: url(./assets/images/home-image.png);
   margin: 50px 50px 0 0;
-
 }
 
-.about-container{
+.about-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
-.inner-box{
+.inner-box {
   width: 80%;
-  height:80%;
-  padding:20px 20px;
-  margin:80px 80px;
-  box-shadow: 5px 10px #646262a1;
+  height: 80%;
+  padding: 20px 20px;
+  margin: 80px 80px;
+  box-shadow: 5px 5px 5px 5px #646262a1;
   display: flex;
   justify-content: space-between;
   font-size: 16px;
 }
 
-p{
+p {
   font-size: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-li{
+.about-container .inner-box .ab-left-section li {
   padding-top: 10px;
-  list-style:square;
-  font-family: 'Times New Roman', Times, serif;
+  list-style: square;
+  font-family: "Times New Roman", Times, serif;
   font-size: 18px;
 }
 
-.skills{
-  width:50%;
+.skills {
+  width: 50%;
   display: flex;
   justify-content: space-between;
 }
 
-.ab-right-section{
-  /* background-image: url(src\assets\images\about-image.png); */
+.ab-right-section {
+    background-image: url(./assets/images/about-image.png);
+    background-size: cover;
+    height: 350px;
+    width: 400px;
+}
+
+.contact-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-text{
+  width:800px;
+  margin-top: 50px;
+  letter-spacing: 2px;
+  box-shadow: 5px 5px 5px 5px;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.contact-container .contact-text h2{
+  padding-left: 300px;
+}
+
+.contact-container .contact-text p{
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+
+.contact-container .contact-text h3{
+  padding-left: 220px;
+  padding-top: 5px;
 }
