@@ -1,7 +1,7 @@
 
 const Project = () =>{
     return(
-        <h2>Project Page</h2>
+        <h2>Project Page is getting Ready!</h2>
     )
 }
 
